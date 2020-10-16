@@ -17,7 +17,9 @@ class CategoryItem extends StatelessWidget {
            ],
            begin: Alignment.bottomLeft,
            end: Alignment.topLeft
-            ) ),
+            ),
+            borderRadius: BorderRadius.circular(15)
+             ),
     );
   }
 }
